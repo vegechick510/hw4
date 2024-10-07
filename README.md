@@ -1,5 +1,5 @@
 # hw4
-![Static Badge](https://img.shields.io/badge/language-bash-blue)
+![Static Badge](https://img.shields.io/badge/language-Shell-blue)
 ![Static Badge](https://img.shields.io/badge/license-MIT-purple)
 ![Static Badge](https://img.shields.io/badge/platform-linux-green)
 <!-- [![.github/workflows/pytest.yml](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml/badge.svg)](https://github.com/vegechick510/hw1/actions/workflows/pytest.yml)  
