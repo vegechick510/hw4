@@ -4,4 +4,7 @@
 
 gawk -F, 'NR > 1 && $3 == 2 && $13 ~ /S/' /workspaces/hw4/titanic.csv | \
 sed 's/female/F/' | sed 's/male/M/' | \
-gawk -F, '$7 != "" {sum += $7; count++} END {if (count > 0) print sum/count}'
+tee >(gawk -F, '$7 != "" {sum += $7; count++} END {if (count > 0) print sum/count}')
+
+
+
